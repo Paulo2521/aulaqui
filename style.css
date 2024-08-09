@@ -1,0 +1,15 @@
+header{
+    background-color:  #7b756f;
+    padding: 8px;
+}
+/* mudar a peleta de cor */
+header img {
+    width: 100px;
+    height: auto;
+}
+/* mudar o tamanho da imagem */
+
+.sesseção-1 {
+    background-image: url(imagens/volei02.jpg);
+    padding: 250px;
+}
