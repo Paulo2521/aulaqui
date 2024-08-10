@@ -1,15 +1,82 @@
 header{
-    background-color:  #7b756f;
+    background-color: #273ebf;
     padding: 8px;
+    display: flex;
+    justify-content: space-between;
 }
-/* mudar a peleta de cor */
+a{
+    background-color: black;
+}
+/* mudar a peleta de cor do cabeçalho */
+
 header img {
     width: 100px;
-    height: auto;
+    /* mudar o tamanho de largura da imagem */
+    height: auto; 
+    /* mudar a altura da imagem */
 }
-/* mudar o tamanho da imagem */
 
-.sesseção-1 {
-    background-image: url(imagens/volei02.jpg);
+.section-01{
+    background-image: url(imagens/depositphotos_464283366-stock-photo-sport-arena-interior-professional-volleyball.jpg);
+    padding: 250px; /* espaçamento */
+    background-repeat: no-repeat; /* para não repetir a imagem*/
+    background-size: cover; /*pra preencher a imagem no site*/
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    /* para fazer alinhamento */
+    align-items: center;
+    /* para fazer alinhamento */
+}
+
+.section-01 button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.sesseção-2{
+    background-color:#0428a9;
     padding: 250px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.sesseção-2 img {
+    padding: 50px 0px 0px 100px;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+ 
+.sesseção-2 h2{
+font-size: 30px;
+
+}
+
+.sesseção-2 p{
+    margin-top: 10px;
+}
+
+
+
+.section-03{
+    background-image: url(imagens/volei02.jpg);
+    padding: 250px; /* espaçamento */
+    background-repeat: no-repeat; /* para não repetir a imagem*/
+    background-size: cover; /*pra preencher a imagem no site*/
+}
+
+.section-03 h2{
+    font-size: 50px;
+    
+}
+
+.section-03 p{
+    font-size: 30px;
+    font-weight: bold;
 }
