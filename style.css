@@ -1,26 +1,38 @@
-header{
+*{
+ margin: 0; /* para zerar a margem*/
+ padding: 0; /*  para zerar a o preenchimento*/
+
+}
+
+header {
     background-color: #273ebf;
     padding: 8px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-a{
+
+a {
     background-color: black;
 }
+
 /* mudar a peleta de cor do cabeçalho */
 
 header img {
     width: 100px;
     /* mudar o tamanho de largura da imagem */
-    height: auto; 
+    height: auto;
     /* mudar a altura da imagem */
 }
 
-.section-01{
+.section-01 {
     background-image: url(imagens/depositphotos_464283366-stock-photo-sport-arena-interior-professional-volleyball.jpg);
-    padding: 250px; /* espaçamento */
-    background-repeat: no-repeat; /* para não repetir a imagem*/
-    background-size: cover; /*pra preencher a imagem no site*/
+    padding: 250px;
+    /* espaçamento */
+    background-repeat: no-repeat;
+    /* para não repetir a imagem*/
+    background-size: cover;
+    /*pra preencher a imagem no site*/
     background-position: center;
     display: flex;
     justify-content: center;
@@ -29,15 +41,15 @@ header img {
     /* para fazer alinhamento */
 }
 
-.section-01 button{
+.section-01 button {
     width: 150px;
     height: 40px;
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
 }
 
-.sesseção-2{
-    background-color:#0428a9;
+.sesseção-2 {
+    background-color: #0428a9;
     padding: 250px;
     color: white;
     font-size: 20px;
@@ -52,31 +64,78 @@ header img {
     height: auto;
     border-radius: 20px;
 }
- 
-.sesseção-2 h2{
-font-size: 30px;
+
+.sesseção-2 h2 {
+    font-size: 30px;
 
 }
 
-.sesseção-2 p{
+.sesseção-2 p {
     margin-top: 10px;
 }
 
 
 
-.section-03{
+.section-03 {
     background-image: url(imagens/volei02.jpg);
-    padding: 250px; /* espaçamento */
-    background-repeat: no-repeat; /* para não repetir a imagem*/
-    background-size: cover; /*pra preencher a imagem no site*/
+    background-attachment: fixed;
+    /* para deixar a imagem fixa */
+    padding: 250px;
+    /* espaçamento */
+    background-repeat: no-repeat;
+    /* para não repetir a imagem*/
+    background-size: cover;
+    /*pra preencher a imagem no site*/
 }
 
-.section-03 h2{
+.section-03 h2 {
     font-size: 50px;
-    
+/* tamanho da fonte */
 }
 
-.section-03 p{
+.section-03 p {
     font-size: 30px;
     font-weight: bold;
+    /* grossura da fonte */
+}
+
+header nav ul {
+    display: flex;
+    /* para deixart alinhado */
+
+}
+
+header nav ul li {
+    list-style: none;
+    /* para tirar a marcação das listas */
+    margin-right: 10px;
+    /* a margem */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #273ebf;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav ul {
+    display: flex;
+ 
+}
+
+footer nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
 }
